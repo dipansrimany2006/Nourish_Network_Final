@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nourish Network</title>
+    <link rel="stylesheet" href="/css/style.1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="uppernav">
+      
+        <div>
+          <img class="logo" src="/assets/Images/logo02.png" alt="logo02.png" />
+          <h1 class="webname">Nourish Network</h1>
+        </div>
+      
+      <div>
+        <button class="login">Log In</button>
+        <button class="donate">Donate</button>
+      </div>
+    </section>
+    
+    <div class="title">
+      <div class="wordonpic1">Real-Time Food is Here.</div>
+      <div class="wordonpic2">
+        Delivering on-demand food with the tap of an app.
+      </div>
+      <button class="buttononpic">Learn More</button>
+    </div>
+    <div class="content">
+      <h1 class="quote">Can you imagine a world without hunger?</h1>
+      <img class="line" src="/assets/Images/line.jpg" alt="line.jpg" />
+      <p class="description">
+        Nourish Network is a simple, straightforward app that connects NGOs to
+        on-demand money and to immediate food in real-time. It's a two way
+        street that NGOs for everyone. For a better way to donate-and a better
+        way to live.
+      </p>
+    </div>
+    <div name="abts" class="aboutus">
+      <h1>What We Do</h1>
+      <span>
+        <img src="/assets/Images/ImageOfAbout.jpg" alt="ImageOfAbout.jpg" />
+          <div>
+            <p>
+              Nourish Network is a food donation website that connects events and
+              restaurants with excess food to nearby NGOs in need. Our mission is
+              to reduce food waste and fight hunger in our communities. With your
+              support, we can make a difference in the lives of those who are food
+              insecure.
+            </p>
+            <button class="readmore">Read More</button>
+          </div>
+      </span>
+    </div>
+    <div id="counts" name="detail">
+      <h1>OUR IMPACT</h1>
+      <ul>
+        <li>
+          <span class="number" value="150">00</span>
+          <p>
+            Children and their families are impacted every year
+          </p>
+        </li>
+        <li>
+          <span class="number" value="200">00</span>
+          <p>
+            and slums are reached out to across the country
+          </p>
+        </li>
+        <li>
+          <span class="number" value="100">00</span>
+          <p>
+            focused on education, healthcare, and women empowerment
+          </p>
+        </li>
+        <li>
+          <span class="number" value="25">00</span>
+          <p>
+            are reached including the remotest areas
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="image1">
+      <img
+        id="imgtag1"
+        src="/assets/Images/event1.jpg"
+        alt="event1.jpg"
+      />
+      <span>
+        <h1 class="fooddonating">Food Donation</h1>
+        <p>
+          <b>Dry Food Distribution:</b> For those unable to cook and residing on
+          the streets, we provide dry foods like puffed rice, batasha, biscuits,
+          and cakes.
+        </p>
+        <p>
+          <b>Basic Cooking Ingredients:</b> Individuals capable of cooking their
+          own meals, dwelling on footpaths or under bridges, receive essentials
+          such as rice, lentils, potatoes, soybean chunks, and eggs.
+        </p>
+      </span>
+    </div>
+    <div class="image2">
+      <img
+        id="imgtag2"
+        src="/assets/Images/event2.jpg"
+        alt="event2"
+      />
+    </div>
+    <div class="Contact">
+      <div class="contactpart1">
+        <h1>Contact</h1>
+        <span>123-456-7890</span>
+        <p>nourishnetwork@gmail.com</p>
+        <span>500 Terry Francine St</span>
+        <span>San Francisco, CA 94158</span>
+      </div>
+      <div class="contactpart1 part2">
+        <span>Solution</span>
+        <span>Vision</span>
+        <span>Programs</span>
+        <span>Blogs</span>
+        <a href="#" class="getstarted">
+          <span>Get Started</span>
+        </a>
+      </div>
+      <div class="contactpart1 part3">
+        <span>Suscribe to Our Newsletter</span>
+        <span>Email*</span>
+        <input type="email" name="email" id="email" />
+        <button class="submit">Submit</button>
+      </div>
+      <div class="contactpart1 part4">
+        <div class="followus">
+          <span>Follow Us On:</span>
+          <span id="icon"
+            ><i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i
+          ></span>
+        </div>
+        <div class="copyright">
+          <span
+            >© 2024 by Nourish Network Powered and secured by HackWave
+            Nexus</span
+          >
+        </div>
+      </div>
+    </div>
+    <script>
+      let numbers_dipslay = document.querySelectorAll(".number");
+      let number_val = [];
+      numbers_dipslay.forEach(number => {
+        var endvalue = parseInt(number.getAttribute("value"));
+        var startvalue = 0;
+        let itterate = setInterval(func => {
+          startvalue += 1;
+          number.textContent = startvalue + "+";;
+          if (startvalue == endvalue) {
+            clearInterval(itterate);
+          }
+        }, Math.floor(3000 / endvalue));
+      });
+    </script>
+  </body>
+</html>
