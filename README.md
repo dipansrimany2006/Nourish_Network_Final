@@ -3,14 +3,13 @@ Welcome to our solution for the GDSC Solution Challenge 2024.
 Our solution aims for a Hunger-Free World.
 
 
-First, all the HTML files are located in the HTML folder, CSS files are located in the CSS folder, Javascript files are located in the Javascript folder, and pictures and videos are in the asset folder.
+First, all the HTML files are in the main file, CSS files in the CSS folder, Javascript files in the Javascript folder, and pictures and videos in the asset folder inside the CSS file.
 
 Only a video of 255 MB needs to be downloaded
-The link to the video is provided in the videos folder (https://github.com/dipansrimany2006/Nourish_Network_Final/blob/main/assets/videos/Video%20link.txt)
-click on the folder, go to the text file, and click the link (https://we.tl/t-s4J2LKRyO2)
-put the video in the videos folder if you clone the repository.
+Click the link (https://we.tl/t-s4J2LKRyO2) and put the video in the videos folder if you clone the repository.
+In case the link doesn't work, follow the steps written in the text file in the "videos" folder :(https://github.com/dipansrimany2006/Nourish_Network_Final/blob/main/css/assets/videos/Video_link.txt)
 
-The YouTube link to our website working showcase is here:- https://youtu.be/kuwv7axRql0
+The YouTube link to our website is here:- https://youtu.be/kuwv7axRql0
 
-Hope you enjoy our Website
+I hope you enjoy our Website
 And HackWave Nexus wishes you a happy day ahead 😊😊.
